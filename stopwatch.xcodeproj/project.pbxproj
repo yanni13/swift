@@ -16,6 +16,7 @@
 		D8A294562AAEBFF10037D909 /* stopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A294552AAEBFF10037D909 /* stopwatchTests.swift */; };
 		D8A294602AAEBFF10037D909 /* stopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A2945F2AAEBFF10037D909 /* stopwatchUITests.swift */; };
 		D8A294622AAEBFF10037D909 /* stopwatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A294612AAEBFF10037D909 /* stopwatchUITestsLaunchTests.swift */; };
+		D8A2946F2AB2C7530037D909 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A2946E2AB2C7530037D909 /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D8A2945B2AAEBFF10037D909 /* stopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A2945F2AAEBFF10037D909 /* stopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchUITests.swift; sourceTree = "<group>"; };
 		D8A294612AAEBFF10037D909 /* stopwatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8A2946E2AB2C7530037D909 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D8A2943E2AAEBFEF0037D909 /* AppDelegate.swift */,
 				D8A294402AAEBFEF0037D909 /* SceneDelegate.swift */,
 				D8A294422AAEBFEF0037D909 /* ViewController.swift */,
+				D8A2946E2AB2C7530037D909 /* Stopwatch.swift */,
 				D8A294442AAEBFEF0037D909 /* Main.storyboard */,
 				D8A294472AAEBFF10037D909 /* Assets.xcassets */,
 				D8A294492AAEBFF10037D909 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				D8A294432AAEBFEF0037D909 /* ViewController.swift in Sources */,
 				D8A2943F2AAEBFEF0037D909 /* AppDelegate.swift in Sources */,
 				D8A294412AAEBFEF0037D909 /* SceneDelegate.swift in Sources */,
+				D8A2946F2AB2C7530037D909 /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
