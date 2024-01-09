@@ -24,8 +24,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         textField.delegate = self
         
-        dog = UIImage(named: "IMG_2887.JPG")
-        karina = UIImage(named: "IMG_0253.JPG")
+        dog = UIImage(named:"dog")
+        karina = UIImage(named: "karina")
         Lany = UIImage(named: "Lany")
         maru = UIImage(named: "maru")
         oasis = UIImage(named: "oasis")
@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if let searchText = textField.text{
             
             if searchText == "dog" {
-                self.imageView.image = dog
+                imageView.image = dog
             }
             else if searchText == "karina" {
                 imageView.image = karina
@@ -61,5 +61,4 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-
 }
