@@ -32,11 +32,12 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDelegateAp
     
     }
     
-    public func calendar(_ calendar: FSCalendar, didDeselect date: Date, at monthPosition: FSCalendarMonthPosition) { //날짜 선택시 콜백 메서드
+    public func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) { //날짜 선택시 콜백 메서드
        
-        let selectecDate = didFormatter.string(from: date)
-        selectDate = selectecDate
-        print(selectDate)
+        let selectecdDate = didFormatter.string(from: date)
+        selectDate = selectecdDate
+        print("[INFO] selectDate : \(selectDate)")
+        print("[INFO] didDeselect : \(date)")
         
         showAlert(for: date)
 

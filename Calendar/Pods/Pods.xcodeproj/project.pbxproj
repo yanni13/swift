@@ -132,7 +132,7 @@
 		A362A47209F98514B7D35123275341E2 /* Pods-CalendarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CalendarTests.modulemap"; sourceTree = "<group>"; };
 		A3F401E4F5FDFAEF53B57B336ED54895 /* Pods-Calendar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Calendar-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A94962431DFBB4626A3662A04D580E38 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
-		B189CECF251CBF69F5B452734776DC23 /* Pods-Calendar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Calendar"; path = Pods_Calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B189CECF251CBF69F5B452734776DC23 /* Pods_Calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA69D287AB7B54430A380C8FF282E7E3 /* Pods-Calendar-CalendarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Calendar-CalendarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB0B663BB78A752E4EFDF5A1C50F1AA8 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
 		D039E31E23915D715A3E6D0A5261FBA6 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
@@ -250,7 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
-				B189CECF251CBF69F5B452734776DC23 /* Pods-Calendar */,
+				B189CECF251CBF69F5B452734776DC23 /* Pods_Calendar.framework */,
 				71B7081C56B8F45BF0397D3439867DCB /* Pods-Calendar-CalendarUITests */,
 				1F0577C505288313AAD24960A90A7195 /* Pods-CalendarTests */,
 			);
@@ -460,7 +460,7 @@
 			);
 			name = "Pods-Calendar";
 			productName = Pods_Calendar;
-			productReference = B189CECF251CBF69F5B452734776DC23 /* Pods-Calendar */;
+			productReference = B189CECF251CBF69F5B452734776DC23 /* Pods_Calendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE4E9CEE6D0CB3C3547DCDD8178D03A5 /* Pods-Calendar-CalendarUITests */ = {
